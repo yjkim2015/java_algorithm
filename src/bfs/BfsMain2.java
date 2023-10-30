@@ -4,6 +4,8 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
+
+//송아지 찾기
 public class BfsMain2 {
     int answer = 0;
     int[] dis = {1, -1, 5};

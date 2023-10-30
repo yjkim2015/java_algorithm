@@ -1,5 +1,6 @@
 package dfs;
 
+//부분집합구하기
 public class DfsMain2 {
     static int n;
     static int[] ch;
