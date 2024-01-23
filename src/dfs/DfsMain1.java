@@ -33,6 +33,7 @@ public class DfsMain1 {
     }
 
     public static void main(String[] args) {
+
         DfsMain1 tree = new DfsMain1();
         tree.root = new Node(1);
         tree.root.lt = new Node(2);
