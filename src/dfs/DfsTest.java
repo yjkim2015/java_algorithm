@@ -31,12 +31,6 @@ public class DfsTest {
     public void Dfs(int v) {
         if (v == n)  {
             answer++;
-            for (int i = 1; i <= n ; i++) {
-                if (checked[i] == 1) {
-                    System.out.print(i + " ");
-                }
-            }
-            System.out.println();
         }
         else {
             for(int i = 1; i <= n; i++) {
