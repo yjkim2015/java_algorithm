@@ -7,14 +7,14 @@ public class Section8_1 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
-        recursive(1, n);
+        recursive(n);
     }
-    public static void recursive(int k, int n) {
-        if (k > n) {
+    public static void recursive(int n) {
+        if (n < 1) {
             return;
         }
 
-        System.out.print(k + " ");
-        recursive(k + 1, n);
+        recursive(n - 1);
+        System.out.print(n + " ");
     }
 }
