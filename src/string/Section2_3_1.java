@@ -1,6 +1,6 @@
 package string;
 
-public class Section_2_3_1
+public class Section2_3_1
 {
     public static void main(String[] args) {
 
